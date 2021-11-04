@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">AndroidFundamentalsFall2021</string>
+    <string name="happy_birthday_android">Happy Birthday, Android!</string>
+    <string name="my_first_textview">My first TextView</string>
+    <string name="this_is_my_second_textview">This is my second TextView</string>
+    <string name="sample_1">Sample 1</string>
+    <string name="sample_2">Sample 2</string>
+    <string name="i_am_a_button">I am a Button :)</string>
+    <string name="please_add_here_your_email_address">Please add here your email address</string>
+    <string name="this_is_a_checkbox">This is a CheckBox</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="this_is_a_switch">This is a Switch</string>
+    <string name="hello">hello</string>
 </resources>
