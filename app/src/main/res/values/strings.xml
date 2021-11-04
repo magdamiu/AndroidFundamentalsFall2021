@@ -12,4 +12,9 @@
     <string name="no">NO</string>
     <string name="this_is_a_switch">This is a Switch</string>
     <string name="hello">hello</string>
+    <string name="username">Username</string>
+    <string name="please_insert_your_username">Please insert your username</string>
+    <string name="password">Password</string>
+    <string name="please_insert_your_password">Please insert your password</string>
+    <string name="login">Login</string>
 </resources>

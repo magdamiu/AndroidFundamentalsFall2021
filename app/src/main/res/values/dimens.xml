@@ -2,4 +2,5 @@
 <resources>
     <dimen name="medium_font_size">23sp</dimen>
     <dimen name="big_size">64dp</dimen>
+    <dimen name="medium_space">16dp</dimen>
 </resources>
