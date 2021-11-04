@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:text="@string/username" />
 
-    <EditText
+    <EditText android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/please_insert_your_username" />
@@ -21,13 +21,13 @@
         android:layout_marginTop="@dimen/medium_space"
         android:text="@string/password" />
 
-    <EditText
+    <EditText android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/please_insert_your_password"
         android:inputType="textPassword" />
 
-    <Button
+    <Button android:onClick="loginOnClick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login" />
