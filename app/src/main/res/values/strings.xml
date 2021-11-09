@@ -17,4 +17,33 @@
     <string name="password">Password</string>
     <string name="please_insert_your_password">Please insert your password</string>
     <string name="login">Login</string>
+    <string name="long_text">ScrollView - scrollable view that contains one child view
+FrameLayout - block out an area on the screen to display a single item
+WebView - displays web pages
+RelativeLayout - arranges views relative to other views/parent
+RecyclerView* - scrollable "list" of views or view groups
+ConstraintLayout* - position and size widgets in a flexible way
+        ScrollView - scrollable view that contains one child view
+FrameLayout - block out an area on the screen to display a single item
+WebView - displays web pages
+RelativeLayout - arranges views relative to other views/parent
+RecyclerView* - scrollable "list" of views or view groups
+ConstraintLayout* - position and size widgets in a flexible way
+        ScrollView - scrollable view that contains one child view
+FrameLayout - block out an area on the screen to display a single item
+WebView - displays web pages
+RelativeLayout - arranges views relative to other views/parent
+RecyclerView* - scrollable "list" of views or view groups
+ConstraintLayout* - position and size widgets in a flexible way
+        ScrollView - scrollable view that contains one child view
+FrameLayout - block out an area on the screen to display a single item
+WebView - displays web pages
+RelativeLayout - arranges views relative to other views/parent
+RecyclerView* - scrollable "list" of views or view groups
+ConstraintLayout* - position and size widgets in a flexible way
+</string>
+    <string name="first_textview">first textview</string>
+    <string name="second_textview">second textview</string>
+    <string name="parent_right">parent right</string>
+    <string name="center_in_parent">center in parent</string>
 </resources>

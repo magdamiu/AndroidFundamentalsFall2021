@@ -2,6 +2,7 @@ package com.magdamiu.androidfundamentalsfall2021;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -36,9 +37,15 @@ public class MainActivity extends AppCompatActivity {
                 passwordEditText.setError("Please add your password");
             } else {
                 Toast.makeText(MainActivity.this, usernameValue + " " + passwordValue, Toast.LENGTH_LONG).show();
+                openNewActivity();
             }
         } else {
             Toast.makeText(MainActivity.this, "please try again later", Toast.LENGTH_LONG).show();
         }
+    }
+
+    private void openNewActivity() {
+        Intent startNewActivity = new Intent(MainActivity.this, ViewGroupsSamplesActivity.class);
+        startActivity(startNewActivity);
     }
 }
