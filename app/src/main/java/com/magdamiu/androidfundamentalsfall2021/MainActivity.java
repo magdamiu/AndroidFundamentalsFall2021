@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openNewActivity() {
-        Intent startNewActivity = new Intent(MainActivity.this, ViewGroupsSamplesActivity.class);
+        Intent startNewActivity = new Intent(MainActivity.this, CakesActivity.class);
         startActivity(startNewActivity);
     }
 }

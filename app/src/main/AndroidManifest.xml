@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFundamentalsFall2021">
         <activity
+            android:name=".CakesActivity"
+            android:exported="false" />
+        <activity
             android:name=".ViewGroupsSamplesActivity"
             android:exported="false" />
         <activity

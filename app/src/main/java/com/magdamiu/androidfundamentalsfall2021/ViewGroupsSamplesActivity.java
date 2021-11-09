@@ -64,6 +64,5 @@ public class ViewGroupsSamplesActivity extends AppCompatActivity implements Adap
 
     @Override
     public void onNothingSelected(AdapterView<?> adapterView) {
-
     }
 }
