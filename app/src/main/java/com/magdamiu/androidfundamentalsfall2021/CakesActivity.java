@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CakesActivity extends AppCompatActivity {
-
+    private final String CAKE_URL = "https://www.freepnglogos.com/uploads/cake-png/birthday-cake-png-transparent-birthday-cake-images-12.png";
     private List<Cake> cakes;
     private RecyclerView cakesRecyclerView;
 
@@ -32,17 +32,17 @@ public class CakesActivity extends AppCompatActivity {
     // data source
     private void setupCakes() {
         cakes = new ArrayList<>();
-        cakes.add(new Cake("ecler", "poza"));
-        cakes.add(new Cake("cozonac", "poza"));
-        cakes.add(new Cake("clatite", "poza"));
-        cakes.add(new Cake("placinta", "poza"));
-        cakes.add(new Cake("cornulete", "poza"));
-        cakes.add(new Cake("inghetata", "poza"));
-        cakes.add(new Cake("tiramisu", "poza"));
-        cakes.add(new Cake("briosa", "poza"));
-        cakes.add(new Cake("gogosi", "poza"));
-        cakes.add(new Cake("gogosele", "poza"));
-        cakes.add(new Cake("rulada", "poza"));
+        cakes.add(new Cake("ecler", CAKE_URL));
+        cakes.add(new Cake("cozonac", CAKE_URL));
+        cakes.add(new Cake("clatite", CAKE_URL));
+        cakes.add(new Cake("placinta", CAKE_URL));
+        cakes.add(new Cake("cornulete", CAKE_URL));
+        cakes.add(new Cake("inghetata", CAKE_URL));
+        cakes.add(new Cake("tiramisu", CAKE_URL));
+        cakes.add(new Cake("briosa", CAKE_URL));
+        cakes.add(new Cake("gogosi", CAKE_URL));
+        cakes.add(new Cake("gogosele", CAKE_URL));
+        cakes.add(new Cake("rulada", CAKE_URL));
     }
 
     // setup LayoutManager

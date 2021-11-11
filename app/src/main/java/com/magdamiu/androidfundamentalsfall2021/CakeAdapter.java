@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.List;
 
 public class CakeAdapter extends RecyclerView.Adapter<CakeViewHolder> {
@@ -27,6 +29,7 @@ public class CakeAdapter extends RecyclerView.Adapter<CakeViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull CakeViewHolder holder, int position) {
         Cake currentCake = cakes.get(position);
+        Picasso.get().load(currentCake.getImage()).into(holder.getCakeImage());
         holder.getCakeName().setText(currentCake.getName());
     }
 
