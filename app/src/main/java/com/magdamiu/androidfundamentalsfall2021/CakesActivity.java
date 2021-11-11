@@ -25,6 +25,10 @@ public class CakesActivity extends AppCompatActivity {
         setupLayoutManager();
         setupAdapter();
 
+        processReceivedInfo();
+    }
+
+    private void processReceivedInfo() {
         Bundle giftMessage = getIntent().getExtras();
         if(giftMessage != null) {
             String receivedMessage = giftMessage.getString(LearnActivity.MESSAGE);
