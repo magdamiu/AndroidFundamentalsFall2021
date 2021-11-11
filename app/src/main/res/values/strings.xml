@@ -47,4 +47,7 @@ ConstraintLayout* - position and size widgets in a flexible way
     <string name="parent_right">parent right</string>
     <string name="center_in_parent">center in parent</string>
     <string name="select_an_android_version">Select an Android version</string>
+    <string name="cakes_activity">Cakes Activity</string>
+    <string name="call_a_number">Call a number</string>
+    <string name="open_a_webpage">Open a webpage</string>
 </resources>
