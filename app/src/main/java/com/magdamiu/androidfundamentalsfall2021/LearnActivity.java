@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Toast;
 
 public class LearnActivity extends AppCompatActivity {
+    public static final String MESSAGE = "message";
     private static final String LEARN_ACTIVITY = "LearnActivity";
 
     @Override
@@ -58,6 +59,7 @@ public class LearnActivity extends AppCompatActivity {
     public void openActivityOnClick(View view) {
         // explicit intent => starts an activity defined by us, the developers
         Intent cakesActivity = new Intent(LearnActivity.this, CakesActivity.class);
+        cakesActivity.putExtra(MESSAGE, "Hello from LearnActivity");
         startActivity(cakesActivity);
     }
 

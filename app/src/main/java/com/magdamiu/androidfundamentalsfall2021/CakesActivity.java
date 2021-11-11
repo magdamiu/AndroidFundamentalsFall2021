@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,6 +24,12 @@ public class CakesActivity extends AppCompatActivity {
         setupCakes();
         setupLayoutManager();
         setupAdapter();
+
+        Bundle giftMessage = getIntent().getExtras();
+        if(giftMessage != null) {
+            String receivedMessage = giftMessage.getString(LearnActivity.MESSAGE);
+            Toast.makeText(CakesActivity.this, receivedMessage, Toast.LENGTH_LONG).show();
+        }
     }
 
     private void setupAdapter() {
