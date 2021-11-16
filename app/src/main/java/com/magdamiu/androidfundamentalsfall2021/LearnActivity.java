@@ -15,6 +15,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.magdamiu.androidfundamentalsfall2021.fragment.HostActivity;
+import com.magdamiu.androidfundamentalsfall2021.fragment.SecondHostActivity;
 
 public class LearnActivity extends AppCompatActivity {
     public static final String MESSAGE = "message";
@@ -127,5 +128,10 @@ public class LearnActivity extends AppCompatActivity {
     public void startHostActivityOnClick(View view) {
         Intent startHostActivity = new Intent(LearnActivity.this, HostActivity.class);
         startActivity(startHostActivity);
+    }
+
+    public void startSecondHostActivity(View view) {
+        Intent startSecondActivity = new Intent(LearnActivity.this, SecondHostActivity.class);
+        startActivity(startSecondActivity);
     }
 }

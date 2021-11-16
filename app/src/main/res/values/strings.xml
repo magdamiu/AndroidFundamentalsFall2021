@@ -54,4 +54,6 @@ ConstraintLayout* - position and size widgets in a flexible way
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="start_host_activity">Start Host Activity</string>
+    <string name="start_second_host_activity">Start Second Host Activity</string>
+    <string name="second_activity_label">This is the SecondHostActivity (dynamic fragment added)</string>
 </resources>
