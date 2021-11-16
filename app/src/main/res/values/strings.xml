@@ -56,4 +56,5 @@ ConstraintLayout* - position and size widgets in a flexible way
     <string name="start_host_activity">Start Host Activity</string>
     <string name="start_second_host_activity">Start Second Host Activity</string>
     <string name="second_activity_label">This is the SecondHostActivity (dynamic fragment added)</string>
+    <string name="send_data_from_activity_to_fragment">Send data from Activity to Fragment</string>
 </resources>

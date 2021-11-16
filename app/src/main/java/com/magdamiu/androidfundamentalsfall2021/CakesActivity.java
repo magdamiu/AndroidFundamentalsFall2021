@@ -51,7 +51,7 @@ public class CakesActivity extends AppCompatActivity {
         if(giftMessage != null) {
             String receivedMessage = giftMessage.getString(LearnActivity.MESSAGE);
             int receivedCount = giftMessage.getInt(LearnActivity.COUNT);
-            Toast.makeText(CakesActivity.this, receivedMessage + " " + receivedCount, Toast.LENGTH_LONG).show();
+            Toast.makeText(CakesActivity.this, String.format("%s %d", receivedMessage, receivedCount), Toast.LENGTH_LONG).show();
         }
     }
 
