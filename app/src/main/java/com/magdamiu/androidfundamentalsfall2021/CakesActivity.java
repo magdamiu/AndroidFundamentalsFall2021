@@ -1,10 +1,17 @@
 package com.magdamiu.androidfundamentalsfall2021;
 
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -12,6 +19,7 @@ import java.util.List;
 
 public class CakesActivity extends AppCompatActivity {
     private final String CAKE_URL = "https://www.freepnglogos.com/uploads/cake-png/birthday-cake-png-transparent-birthday-cake-images-12.png";
+    public static final String RESULT = "response";
     private List<Cake> cakes;
     private RecyclerView cakesRecyclerView;
 
@@ -26,13 +34,24 @@ public class CakesActivity extends AppCompatActivity {
         setupAdapter();
 
         processReceivedInfo();
+
+        sendResult();
+    }
+
+    private void sendResult() {
+        String result = "Yes, I am here";
+        Intent intent = new Intent();
+        intent.putExtra(RESULT, result);
+        setResult(RESULT_OK, intent);
+        finish();
     }
 
     private void processReceivedInfo() {
         Bundle giftMessage = getIntent().getExtras();
         if(giftMessage != null) {
             String receivedMessage = giftMessage.getString(LearnActivity.MESSAGE);
-            Toast.makeText(CakesActivity.this, receivedMessage, Toast.LENGTH_LONG).show();
+            int receivedCount = giftMessage.getInt(LearnActivity.COUNT);
+            Toast.makeText(CakesActivity.this, receivedMessage + " " + receivedCount, Toast.LENGTH_LONG).show();
         }
     }
 

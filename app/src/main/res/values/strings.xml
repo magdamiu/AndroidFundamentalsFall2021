@@ -50,4 +50,5 @@ ConstraintLayout* - position and size widgets in a flexible way
     <string name="cakes_activity">Cakes Activity</string>
     <string name="call_a_number">Call a number</string>
     <string name="open_a_webpage">Open a webpage</string>
+    <string name="launch_start_for_result">Launch Start for Result</string>
 </resources>
