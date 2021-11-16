@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFundamentalsFall2021">
         <activity
+            android:name=".fragment.HostActivity"
+            android:exported="false" />
+        <activity
             android:name=".LearnActivity"
             android:exported="true">
             <intent-filter>
@@ -28,8 +31,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>

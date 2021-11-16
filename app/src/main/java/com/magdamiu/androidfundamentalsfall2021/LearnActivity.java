@@ -3,7 +3,6 @@ package com.magdamiu.androidfundamentalsfall2021;
 import androidx.activity.result.ActivityResult;
 import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
-import androidx.activity.result.contract.ActivityResultContract;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,6 +13,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
+
+import com.magdamiu.androidfundamentalsfall2021.fragment.HostActivity;
 
 public class LearnActivity extends AppCompatActivity {
     public static final String MESSAGE = "message";
@@ -37,6 +38,19 @@ public class LearnActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_learn);
         Log.e(LEARN_ACTIVITY, "onCreate");
+
+        computeForDebug();
+    }
+
+    private void computeForDebug() {
+        int value1 = 7;
+        int value2 = 0;
+        int value3 = 3;
+
+        int sum = value1 + value2 + value3;
+        int diff = value1 - value3;
+        // int div = value1 / value2;
+        int prod = value1 * value2;
     }
 
     @Override
@@ -108,5 +122,10 @@ public class LearnActivity extends AppCompatActivity {
         Intent intentForResult = new Intent(LearnActivity.this, CakesActivity.class);
         intentForResult.putExtra(MESSAGE_FOR_RESULT, "Are you there?");
         startForResult.launch(intentForResult);
+    }
+
+    public void startHostActivityOnClick(View view) {
+        Intent startHostActivity = new Intent(LearnActivity.this, HostActivity.class);
+        startActivity(startHostActivity);
     }
 }
