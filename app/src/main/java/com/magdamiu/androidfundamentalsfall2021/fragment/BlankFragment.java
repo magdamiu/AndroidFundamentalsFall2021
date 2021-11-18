@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +17,7 @@ public class BlankFragment extends Fragment {
     private TextView resultTextView;
     private String name;
     private int value;
+    private String message;
 
     public BlankFragment() {
         // Required empty public constructor
@@ -37,5 +39,10 @@ public class BlankFragment extends Fragment {
         resultTextView = view.findViewById(R.id.textViewResult);
         resultTextView.setText(String.format("%s %d", name, value));
         return view;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+        Log.e("BlankFragment", message);
     }
 }
