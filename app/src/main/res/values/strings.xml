@@ -78,4 +78,8 @@ ConstraintLayout* - position and size widgets in a flexible way
     <string name="open_navigation_drawer">Open Navigation Drawer</string>
     <string name="title">Title</string>
     <string name="content">Content</string>
+    <string name="datepicker_sample">DatePicker Sample</string>
+    <string name="open_datepicker">Open DatePicker</string>
+    <string name="open_alerts_activity">Open Alerts Activity</string>
+    <string name="open_timepicker">Open TimePicker</string>
 </resources>

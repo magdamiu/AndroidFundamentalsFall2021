@@ -17,6 +17,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.magdamiu.androidfundamentalsfall2021.fragment.AlertsActivity;
 import com.magdamiu.androidfundamentalsfall2021.fragment.HostActivity;
 import com.magdamiu.androidfundamentalsfall2021.fragment.SecondHostActivity;
 import com.magdamiu.androidfundamentalsfall2021.navigation.NavActivity;
@@ -152,5 +153,10 @@ public class LearnActivity extends AppCompatActivity {
     public void openNavigationDrawerOnClick(View view) {
         Intent startNavActivity = new Intent(LearnActivity.this, NavActivity.class);
         startActivity(startNavActivity);
+    }
+
+    public void openAlertsActivityOnClick(View view) {
+        Intent alertsActivity = new Intent(LearnActivity.this, AlertsActivity.class);
+        startActivity(alertsActivity);
     }
 }

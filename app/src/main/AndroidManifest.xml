@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFundamentalsFall2021">
         <activity
+            android:name=".fragment.AlertsActivity"
+            android:exported="false" />
+        <activity
             android:name=".navigation.NavActivity"
             android:exported="false"
             android:label="@string/title_activity_nav"
@@ -19,7 +22,7 @@
         <activity
             android:name=".fragment.SecondHostActivity"
             android:exported="false"
-            android:parentActivityName=".LearnActivity"/>
+            android:parentActivityName=".LearnActivity" />
         <activity
             android:name=".fragment.HostActivity"
             android:exported="false" />
