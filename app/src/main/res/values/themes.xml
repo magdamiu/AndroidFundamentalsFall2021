@@ -13,4 +13,22 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.AndroidFundamentalsFall2021.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AndroidFundamentalsFall2021.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.AndroidFundamentalsFall2021.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TealBigText">
+        <item name="android:background">@color/teal_200</item>
+        <item name="android:textSize">23sp</item>
+    </style>
+
+    <style name="TealBigAndBoldText" parent="TealBigText">
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

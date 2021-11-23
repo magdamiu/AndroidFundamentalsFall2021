@@ -5,17 +5,21 @@ import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.magdamiu.androidfundamentalsfall2021.fragment.HostActivity;
 import com.magdamiu.androidfundamentalsfall2021.fragment.SecondHostActivity;
+import com.magdamiu.androidfundamentalsfall2021.navigation.NavActivity;
 
 public class LearnActivity extends AppCompatActivity {
     public static final String MESSAGE = "message";
@@ -41,6 +45,16 @@ public class LearnActivity extends AppCompatActivity {
         Log.e(LEARN_ACTIVITY, "onCreate");
 
         computeForDebug();
+
+        setAnimation();
+    }
+
+    private void setAnimation() {
+        ConstraintLayout parentConstraint = findViewById(R.id.parentConstraint);
+        AnimationDrawable animationDrawable = (AnimationDrawable) parentConstraint.getBackground();
+        animationDrawable.setEnterFadeDuration(2500);
+        animationDrawable.setExitFadeDuration(5000);
+        animationDrawable.start();
     }
 
     private void computeForDebug() {
@@ -133,5 +147,10 @@ public class LearnActivity extends AppCompatActivity {
     public void startSecondHostActivity(View view) {
         Intent startSecondActivity = new Intent(LearnActivity.this, SecondHostActivity.class);
         startActivity(startSecondActivity);
+    }
+
+    public void openNavigationDrawerOnClick(View view) {
+        Intent startNavActivity = new Intent(LearnActivity.this, NavActivity.class);
+        startActivity(startNavActivity);
     }
 }

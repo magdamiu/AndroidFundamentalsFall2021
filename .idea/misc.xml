@@ -3,24 +3,42 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/drawable/animation.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/drawable/gradient_1.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/drawable/gradient_2.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/drawable/gradient_3.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/drawable/gradient_4.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/drawable/gradient_5.xml" value="0.2796296296296296" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/drawable/ic_launcher_background.xml" value="0.5703125" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.41770833333333335" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/drawable/shape_and_stroke.xml" value="0.5143589743589744" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/activity_cakes.xml" value="0.5385416666666667" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/activity_host.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/activity_learn.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/activity_learn.xml" value="0.4646098003629764" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/activity_main.xml" value="0.5401041666666667" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/activity_nav.xml" value="0.4015625" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/activity_second_host.xml" value="0.4036458333333333" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/app_bar_nav.xml" value="0.4015625" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/cake_item.xml" value="0.5385416666666667" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/card_view_sample.xml" value="0.50625" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/constraint.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/constraint_layout_sample.xml" value="0.5385416666666667" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/content_nav.xml" value="0.4015625" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/fragment_blank.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/fragment_gallery.xml" value="0.4015625" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/fragment_home.xml" value="0.4015625" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/fragment_slideshow.xml" value="0.4015625" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/fragment_sum.xml" value="0.5401041666666667" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/frame_layout_sample.xml" value="0.5385416666666667" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/login.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/nav_header_nav.xml" value="0.4015625" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/relative_layout_sample.xml" value="0.32708333333333334" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/samples.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/scroll_view_sample.xml" value="0.5385416666666667" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/spinner_sample.xml" value="0.3421875" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/layout/web_view_sample.xml" value="0.5385416666666667" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/menu/activity_nav_drawer.xml" value="0.4015625" />
+        <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/menu/nav.xml" value="0.4015625" />
         <entry key="..\:/Users/miual/AndroidStudioProjects/AndroidFundamentalsFall2021/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.44537037037037036" />
         <entry key="..\:/Users/miual/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_list_item_1.xml" value="0.5541666666666667" />
       </map>

@@ -61,4 +61,21 @@ ConstraintLayout* - position and size widgets in a flexible way
     <string name="first_number">First Number</string>
     <string name="second_number">Second Number</string>
     <string name="send_numbers">Send numbers</string>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="gallery">Gallery</string>
+    <string name="home">home</string>
+    <string name="slideshow">slideshow</string>
+    <string name="open_navigation_drawer">Open Navigation Drawer</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
 </resources>
