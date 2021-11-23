@@ -1,18 +1,26 @@
 package com.magdamiu.androidfundamentalsfall2021.navigation;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.content.ContextCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.snackbar.Snackbar;
 import com.magdamiu.androidfundamentalsfall2021.R;
+import com.magdamiu.androidfundamentalsfall2021.fragment.AlertsActivity;
 
 public class NavActivity extends AppCompatActivity {
 
@@ -23,6 +31,12 @@ public class NavActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nav);
 
+        handlingNavigationBar();
+
+        handlingFab();
+    }
+
+    private void handlingNavigationBar() {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -35,6 +49,29 @@ public class NavActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_nav);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+    }
+
+    private void handlingFab() {
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar snackbar = Snackbar
+                        .make(view, R.string.error_occured, Snackbar.LENGTH_LONG)
+                        .setAction(R.string.retry, new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                Toast.makeText(NavActivity.this, getString(R.string.retry_message), Toast.LENGTH_LONG).show();
+                            }
+                        });
+                snackbar.setActionTextColor(Color.RED);
+                View snackbarView = snackbar.getView();
+                snackbarView.setBackgroundColor(ContextCompat.getColor(NavActivity.this, R.color.teal_200));
+                TextView textView = snackbarView.findViewById(com.google.android.material.R.id.snackbar_text);
+                textView.setTextColor(Color.YELLOW);
+                snackbar.show();
+            }
+        });
     }
 
     @Override

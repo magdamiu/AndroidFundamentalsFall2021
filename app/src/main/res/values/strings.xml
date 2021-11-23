@@ -82,4 +82,7 @@ ConstraintLayout* - position and size widgets in a flexible way
     <string name="open_datepicker">Open DatePicker</string>
     <string name="open_alerts_activity">Open Alerts Activity</string>
     <string name="open_timepicker">Open TimePicker</string>
+    <string name="error_occured">error</string>
+    <string name="retry">retry</string>
+    <string name="retry_message">please try again</string>
 </resources>
