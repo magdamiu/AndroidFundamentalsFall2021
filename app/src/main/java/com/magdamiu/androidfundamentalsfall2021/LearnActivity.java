@@ -21,6 +21,7 @@ import com.magdamiu.androidfundamentalsfall2021.fragment.AlertsActivity;
 import com.magdamiu.androidfundamentalsfall2021.fragment.HostActivity;
 import com.magdamiu.androidfundamentalsfall2021.fragment.SecondHostActivity;
 import com.magdamiu.androidfundamentalsfall2021.navigation.NavActivity;
+import com.magdamiu.androidfundamentalsfall2021.retrofit.GithubActivity;
 
 public class LearnActivity extends AppCompatActivity {
     public static final String MESSAGE = "message";
@@ -158,5 +159,10 @@ public class LearnActivity extends AppCompatActivity {
     public void openAlertsActivityOnClick(View view) {
         Intent alertsActivity = new Intent(LearnActivity.this, AlertsActivity.class);
         startActivity(alertsActivity);
+    }
+
+    public void openGithubActivity(View view) {
+        Intent githubActivity = new Intent(LearnActivity.this, GithubActivity.class);
+        startActivity(githubActivity);
     }
 }
