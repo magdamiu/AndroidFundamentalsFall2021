@@ -12,7 +12,6 @@ import java.util.List;
 
 public class GithubActivity extends AppCompatActivity {
 
-    // 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
     private UsersRepository usersRepository;
     private IssuesRepository issuesRepository;
 
@@ -29,7 +28,7 @@ public class GithubActivity extends AppCompatActivity {
 
         RepoDetails repoDetails = new RepoDetails();
         repoDetails.setRepo("AndroidFundamentalsFall2021");
-        repoDetails.setToken("token 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");
+        repoDetails.setToken("token ");
         repoDetails.setUsername("magdamiu");
         createAnIssue(issue, repoDetails);
     }
