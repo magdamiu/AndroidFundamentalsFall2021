@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFundamentalsFall2021">
         <activity
+            android:name=".room.NewWordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".room.WordsActivity"
+            android:exported="false" />
+        <activity
             android:name=".retrofit.GithubActivity"
             android:exported="false" />
         <activity
@@ -39,7 +45,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CakesActivity"
+            android:name=".recyclerview.CakesActivity"
             android:exported="false" />
         <activity
             android:name=".ViewGroupsSamplesActivity"

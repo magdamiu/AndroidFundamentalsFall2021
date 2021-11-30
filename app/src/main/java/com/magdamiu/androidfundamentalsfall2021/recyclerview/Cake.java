@@ -1,4 +1,4 @@
-package com.magdamiu.androidfundamentalsfall2021;
+package com.magdamiu.androidfundamentalsfall2021.recyclerview;
 
 public class Cake {
     private String name;

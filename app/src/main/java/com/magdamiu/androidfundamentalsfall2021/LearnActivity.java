@@ -14,14 +14,15 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.magdamiu.androidfundamentalsfall2021.fragment.AlertsActivity;
 import com.magdamiu.androidfundamentalsfall2021.fragment.HostActivity;
 import com.magdamiu.androidfundamentalsfall2021.fragment.SecondHostActivity;
 import com.magdamiu.androidfundamentalsfall2021.navigation.NavActivity;
+import com.magdamiu.androidfundamentalsfall2021.recyclerview.CakesActivity;
 import com.magdamiu.androidfundamentalsfall2021.retrofit.GithubActivity;
+import com.magdamiu.androidfundamentalsfall2021.room.WordsActivity;
 
 public class LearnActivity extends AppCompatActivity {
     public static final String MESSAGE = "message";
@@ -163,6 +164,11 @@ public class LearnActivity extends AppCompatActivity {
 
     public void openGithubActivity(View view) {
         Intent githubActivity = new Intent(LearnActivity.this, GithubActivity.class);
+        startActivity(githubActivity);
+    }
+
+    public void openWordsActivityOnClick(View view) {
+        Intent githubActivity = new Intent(LearnActivity.this, WordsActivity.class);
         startActivity(githubActivity);
     }
 }

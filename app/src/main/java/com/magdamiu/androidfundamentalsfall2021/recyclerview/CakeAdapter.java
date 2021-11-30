@@ -1,4 +1,4 @@
-package com.magdamiu.androidfundamentalsfall2021;
+package com.magdamiu.androidfundamentalsfall2021.recyclerview;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.magdamiu.androidfundamentalsfall2021.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

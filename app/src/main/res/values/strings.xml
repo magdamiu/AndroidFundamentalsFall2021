@@ -86,4 +86,9 @@ ConstraintLayout* - position and size widgets in a flexible way
     <string name="retry">retry</string>
     <string name="retry_message">please try again</string>
     <string name="open_github_activity">Github Activity</string>
+    <string name="add_word">Add word</string>
+    <string name="hint_word">Add a word</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Empty</string>
+    <string name="words_with_room">Words with Room</string>
 </resources>

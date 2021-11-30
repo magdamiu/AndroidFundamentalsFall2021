@@ -1,4 +1,4 @@
-package com.magdamiu.androidfundamentalsfall2021;
+package com.magdamiu.androidfundamentalsfall2021.recyclerview;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -6,6 +6,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.magdamiu.androidfundamentalsfall2021.R;
 
 public class CakeViewHolder extends RecyclerView.ViewHolder {
 

@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.magdamiu.androidfundamentalsfall2021.recyclerview.CakesActivity;
+
 public class MainActivity extends AppCompatActivity {
     private static final String MAIN_ACTIVITY = "MainActivity";
 
